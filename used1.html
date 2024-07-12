@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Used in Daily Life</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://png.pngtree.com/background/20230414/original/pngtree-colorful-wave-background-for-website-picture-image_2424850.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            margin: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fff;
+            text-align: center;
+            width: 200px;
+            cursor: pointer; /* Add cursor pointer for better UX */
+        }
+        .product img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .product-name {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Products Used in Daily Life</h1>
+    <div class="product-grid">
+        <div class="product" onclick="window.location.href = 'https://en.wikipedia.org/wiki/Kurkure#Ingredients'">
+            <img src="https://m.media-amazon.com/images/I/71LyKlizpuL.jpg" alt="Kurkure">
+            <div class="product-name">Kurkure</div>
+        </div>
+        <div class="product" onclick="window.location.href = 'https://en.wikipedia.org/wiki/Thums_Up#Ingredients'">
+            <img src="https://www.shutterstock.com/image-photo/mykolaiv-ukraine-january-15-2021-600nw-2255840115.jpg" alt="Soft Drinks">
+            <div class="product-name">Soft Drinks</div>
+        </div>
+        <div class="product" onclick="window.location.href = 'https://en.wikipedia.org/wiki/Frooti#Ingredients'">
+            <img src="https://mishry.com/wp-content/uploads/2021/07/best-mango-juice-brands-in-india-1.jpg" alt="Preserved Fruit juices">
+            <div class="product-name">Preserved Fruit juices</div>
+        </div>
+        <div class="product" onclick="window.location.href = 'https://www.example.com/product4'">
+            <img src="https://via.placeholder.com/150" alt="Product 4">
+            <div class="product-name">Product 4</div>
+        </div>
+        <div class="product" onclick="window.location.href = 'https://www.example.com/product5'">
+            <img src="https://via.placeholder.com/150" alt="Product 5">
+            <div class="product-name">Product 5</div>
+        </div>
+        <div class="product" onclick="window.location.href = 'https://www.example.com/product6'">
+            <img src="https://via.placeholder.com/150" alt="Product 6">
+            <div class="product-name">Product 6</div>
+        </div>
+    </div>
+</body>
+</html>
